@@ -11,13 +11,14 @@
 Binomial Expansion is a way of easily expanding brackets with two terms to a power. The expansion is given by the general formula: 
 \begin{equation*}
 (x + y)^n = \sum_{r=0}^{n} ^nC_r \cdot x^{n-r} \cdot y^r
-\end{equation*}
-Note that since pascals triangle is symmetrical it doesn't matter which term way around the powers are. 
-where $\binom{n}{c}$ is equivalent to $^nC_r$ and defined as:
+\end{equation*} 
+where $^nC_r$ is equivalent to $\binom{n}{c}$ and defined as:
 \begin{equation*}
-\binom{n}{c} = \frac{n!}{(n-r)! \cdot r!}
+^nC_r = \frac{n!}{(n-r)! \cdot r!}
 \end{equation*}
-Example 1:
+Note that since pascals triangle is symmetrical it doesn't matter which term way around the powers are.
+
+\subsection*{Example 1:}
 \begin{align*}
 (2 + x)^4  & =
   (^4C_0 \cdot 2^4 \cdot x^0) 
@@ -33,8 +34,8 @@ Example 1:
 + (1 \cdot 1 \cdot x^4)&\\
 & = x^4 + 8x^3 + 24x^2 + 32x + 16&\\
 \end{align*}
-\\
-Example 2:
+
+\subsection*{Example 2:}
 Find the $x^3$ coefficient in $(3 + 2x)^5$:
 \\
 let n = 5, r = 3
@@ -44,8 +45,8 @@ let n = 5, r = 3
  & = 720x^3 &\\
 \therefore coefficent = 720
 \end{align*}
-\\
-Example 3:
+
+\subsection*{Example 3:}
 Find the constant term in $(x^2 + \frac{1}{x})^9$:\\
 For the two terms to cancel out, the power of $\frac{1}{x}$ must be twice the power of $x^2$ so that when they are multiplied together they produce $x^0 = 1$, meaning the term is constant or independent $\implies$ We want the term where $x^2$ is to the power of 3 and $\frac{1}{x}$ is to the power of 6 $\implies$ constant term is:
 \begin{align*}

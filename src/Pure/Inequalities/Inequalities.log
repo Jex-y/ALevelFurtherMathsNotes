@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.5)  6 NOV 2019 18:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.5)  6 NOV 2019 18:16
 entering extended mode
-**./master.tex
-(master.tex
+**./Inequalities.tex
+(Inequalities.tex
 LaTeX2e <2019-10-01> patch level 1
 ("C:\Program Files\MiKTeX 2.9\tex/latex/base\article.cls"
 Document Class: article 2019/08/27 v1.4j Standard LaTeX document class
@@ -77,8 +77,8 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
 \mathdisplay@stack=\toks18
 LaTeX Info: Redefining \[ on input line 2855.
 LaTeX Info: Redefining \] on input line 2856.
-) (master.aux)
-\openout1 = `master.aux'.
+) (Inequalities.aux)
+\openout1 = `Inequalities.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
@@ -92,22 +92,22 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
-
-[1
+ [1
 
 {C:/Users/edwar/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-(master.aux) ) 
+(Inequalities.aux) ) 
 Here is how much of TeX's memory you used:
- 858 strings out of 492453
- 9661 string characters out of 3129820
+ 859 strings out of 492453
+ 9750 string characters out of 3129820
  72538 words of memory out of 3000000
- 5281 multiletter control sequences out of 15000+200000
+ 5282 multiletter control sequences out of 15000+200000
  5601 words of font info for 21 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 30i,6n,23p,220b,185s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12
-.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on master.pdf (1 page, 22465 bytes).
+ 30i,6n,23p,226b,185s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pf
+b>
+Output written on Inequalities.pdf (1 page, 24538 bytes).
 PDF statistics:
  14 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
