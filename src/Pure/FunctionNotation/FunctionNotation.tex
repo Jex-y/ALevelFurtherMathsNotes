@@ -1,0 +1,53 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[fleqn]{amsmath}
+\usepackage{amssymb}
+\begin{document}
+
+\title{Function Notation}	
+\author{Edward Jex}
+\maketitle
+\section*{What is a function?}
+\begin{align*}
+f: A & \rightarrow B \\
+x & \mapsto f(x)
+\end{align*}
+Where A is the domain (set of the possible inputs to the function), B is the range or co-domain (set of possible outputs from the function) and $x \mapsto f(x)$ is the mapping rule or operation. \\
+The domain can be smaller than it needs to be and likewise the co-domain can be larger than it needs to be. 
+\subsection*{Example 1:}
+\begin{align*}
+f: \mathbb{R} & \rightarrow \mathbb{R} \\
+x & \mapsto x^2 \\\\
+g: \mathbb{Z} & \rightarrow \mathbb{Z}^+ \\
+x & \mapsto x^2 \\\\
+h: \mathbb{R} \texttt{\char`\\} \{0\} & \rightarrow \mathbb{R} \\
+x & \mapsto \frac{1}{x} \\\\
+k: D & \rightarrow \mathbb{R} \\
+\end{align*}
+D doesn't include the number 0 in the set of reals.
+\begin{align*}
+x & \mapsto 4x^2 + 12x + 73 \\\\
+D & = \{x \in \mathbb{R} \; \vert \mod{x,2} = 0 \}
+\end{align*}
+D is the set of even real numbers. 
+\begin{align*}
+l: [0,\infty) & \rightarrow \mathbb{R} \\
+x & \mapsto \sqrt{x} 
+\end{align*}
+$[0,\infty)$ represents numbers larger than or equal 0 to smaller than infinity.
+\section*{Intervals}
+\begin{align*}
+[a,b] & = \{ x \in \mathbb{R} \vert a \leqslant x \leqslant b \} \\
+(a,b) & = \{ x \in \mathbb{R} \vert a < x < b \} \\
+[a,b) & = \{ x \in \mathbb{R} \vert a \leqslant x < b \} \\
+(a,b] & = \{ x \in \mathbb{R} \vert a < x \leqslant b \} \\
+\end{align*}
+\subsection*{Example 2:}
+\begin{align*}
+\text{Sine} : & \mathbb{R} \rightarrow [-1,1] \\
+& x \mapsto \sin{x} \\
+\text{Cosine}: & \mathbb{R} \rightarrow [-1,1] \\
+& x \mapsto \cos{x} \\
+\text{Tangent}: & \{ x \in \mathbb{R} \vert \mod{x + \frac{\pi}{2},\pi} \neq 0 \rightarrow [-1,1] \\
+& x \mapsto \tan{x} \\
+\end{align*}
+\end{document}
