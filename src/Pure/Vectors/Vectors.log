@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.5)  17 NOV 2019 21:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.5)  27 NOV 2019 09:52
 entering extended mode
 **./Vectors.tex
 (Vectors.tex
@@ -244,25 +244,25 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 27.
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--35
+Underfull \hbox (badness 10000) in paragraph at lines 35--36
 
  []
 
 <./images/fig1.png, id=1, 191.9672pt x 152.82094pt>
 File: ./images/fig1.png Graphic file (type png)
 <use ./images/fig1.png>
-Package pdftex.def Info: ./images/fig1.png  used on input line 40.
+Package pdftex.def Info: ./images/fig1.png  used on input line 41.
 (pdftex.def)             Requested size: 95.98335pt x 76.41026pt.
 [1
 
 {C:/Users/edwar/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Overfull \hbox (0.94038pt too wide) in paragraph at lines 44--45
+Overfull \hbox (0.94038pt too wide) in paragraph at lines 45--46
 \OT1/cmr/m/n/12 Vector ad-di-tion is com-mu-ta-tive (or-der doesn't mat-ter) an
 d as-so-cia-tive (brack-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--56
+Underfull \hbox (badness 10000) in paragraph at lines 55--57
 
  []
 
@@ -270,10 +270,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 54--56
 <./images/fig2.png, id=18, 191.9672pt x 191.9672pt>
 File: ./images/fig2.png Graphic file (type png)
 <use ./images/fig2.png>
-Package pdftex.def Info: ./images/fig2.png  used on input line 83.
+Package pdftex.def Info: ./images/fig2.png  used on input line 84.
 (pdftex.def)             Requested size: 95.98335pt x 95.98335pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 83--84
+Underfull \hbox (badness 10000) in paragraph at lines 84--85
 
  []
 
@@ -295,7 +295,7 @@ cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb
 ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/
 MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2
 .9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Vectors.pdf (4 pages, 103180 bytes).
+Output written on Vectors.pdf (4 pages, 103306 bytes).
 PDF statistics:
  53 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
