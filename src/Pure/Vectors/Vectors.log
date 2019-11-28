@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.5)  27 NOV 2019 09:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.5)  28 NOV 2019 10:20
 entering extended mode
 **./Vectors.tex
 (Vectors.tex
@@ -267,37 +267,48 @@ Underfull \hbox (badness 10000) in paragraph at lines 55--57
  []
 
 [2 <./images/fig1.png>]
-<./images/fig2.png, id=18, 191.9672pt x 191.9672pt>
-File: ./images/fig2.png Graphic file (type png)
-<use ./images/fig2.png>
-Package pdftex.def Info: ./images/fig2.png  used on input line 84.
-(pdftex.def)             Requested size: 95.98335pt x 95.98335pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 84--85
+Underfull \hbox (badness 10000) in paragraph at lines 79--82
 
  []
 
-[3] [4 <./images/fig2.png>] (Vectors.aux) ) 
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 104--105
+
+ []
+
+[4]
+<./images/fig2.png, id=25, 191.9672pt x 191.9672pt>
+File: ./images/fig2.png Graphic file (type png)
+<use ./images/fig2.png>
+Package pdftex.def Info: ./images/fig2.png  used on input line 127.
+(pdftex.def)             Requested size: 95.98335pt x 95.98335pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--128
+
+ []
+
+[5 <./images/fig2.png>] (Vectors.aux) ) 
 Here is how much of TeX's memory you used:
  3256 strings out of 492453
  44637 string characters out of 3129820
- 118132 words of memory out of 3000000
+ 120132 words of memory out of 3000000
  7573 multiletter control sequences out of 15000+200000
  12096 words of font info for 47 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 53i,20n,32p,299b,194s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/t
-ype1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
-lic/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsf
-onts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
-cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb
-><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Prog
-ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2
-.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Vectors.pdf (4 pages, 103306 bytes).
+ 53i,20n,32p,299b,200s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
+amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi
+8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:
+/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program 
+Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/public/amsfonts/symbols/msam10.pfb><C:/Program Files/MiKTeX 2.9/font
+s/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on Vectors.pdf (5 pages, 117104 bytes).
 PDF statistics:
- 53 PDF objects out of 1000 (max. 8388607)
+ 60 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
