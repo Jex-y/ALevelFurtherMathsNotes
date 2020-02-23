@@ -30,4 +30,34 @@ There are three measures of spread we need to know about which help us talk abou
 	\item Standard Deviation - This we will learn about separately but is the most widely used measure of spread.   
 \end{itemize}
 
+\section*{Standard Deviation}
+Why is it useful?
+\begin{itemize}
+	\item Approximately 68\% of values lie within 1 standard deviation of the mean. 
+	\item 95\% lie within 2
+\end{itemize}
+If you have a particular values which is more than two standard deviations from the mean it should be investigated as a possible outlier. \\
+\begin{align*}
+\text{Sum of Squares } & = S_{xx} \\ 
+& = \sum x^2 - n\bar{x}^2 \\
+& = \sum x^2 - \frac{(\sum x)^2}{n} \\
+\end{align*}
+The variance is found by $var = s^2 = \frac{s_{xx}}{n-1}$ \\
+The standard deviation is found by the square root of the variance. \\
+$s = \sqrt{\frac{s_{xx}}{n-1}} = \sqrt{var}$
+
+\subsubsection*{Example 1}
+Find the standard deviation of 0, 1, 0, 3, 0, 2
+\begin{align*}
+\bar{x} & = \frac{1 + 2 + 3}{6} = 1 \\
+s_{xx} & = (0^2 + 1^2 + 0^2 + 3^2 + 0^2 + 2^2) - 6 \times 1^2
+& = 14-6 = 8 \\
+s & = \sqrt{\frac{s_{xx}}{n-1}} \\
+& = \sqrt{\frac{8}{5}} = 1.26 \\
+\end{align*}
+
+\subsection*{Frequency tables}
+If you have a frequency table, we can still work out the standard deviation. The only thing that changes is our formula for sum of squares: \\
+$s_{xx} = \sum x^2f - n\bar{x}^2$ \\
+
 \end{document}
