@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.5)  23 FEB 2020 18:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.5)  23 FEB 2020 19:35
 entering extended mode
-**./Trigonometry.tex
-(Trigonometry.tex
+**./Calculus.tex
+(Calculus.tex
 LaTeX2e <2019-10-01> patch level 1
 ("C:\Program Files\MiKTeX 2.9\tex/latex/base\article.cls"
 Document Class: article 2019/08/27 v1.4j Standard LaTeX document class
@@ -113,8 +113,8 @@ File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 \Gin@req@height=\dimen112
 \Gin@req@width=\dimen113
 )
-(Trigonometry.aux)
-\openout1 = `Trigonometry.aux'.
+(Calculus.aux)
+\openout1 = `Calculus.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
 LaTeX Font Info:    ... okay on input line 6.
@@ -128,8 +128,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
 LaTeX Font Info:    ... okay on input line 6.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
 LaTeX Font Info:    ... okay on input line 6.
-
-("C:\Program Files\MiKTeX 2.9\tex/context/base/mkii\supp-pdf.mkii"
+ ("C:\Program Files\MiKTeX 2.9\tex/context/base/mkii\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count100
 \scratchdimen=\dimen114
@@ -203,78 +202,66 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 10.
 ("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 12--13
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 1
+4.
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/base\omscmr.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 14.
+<./images/Graph1.png, id=1, 416.55624pt x 355.3275pt>
+File: ./images/Graph1.png Graphic file (type png)
+<use ./images/Graph1.png>
+Package pdftex.def Info: ./images/Graph1.png  used on input line 18.
+(pdftex.def)             Requested size: 208.2776pt x 177.6633pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--21
 
  []
 
 [1
 
-{C:/Users/edwar/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-<./images/UnitCircle.png, id=13, 513.92pt x 289.08pt>
-File: ./images/UnitCircle.png Graphic file (type png)
-<use ./images/UnitCircle.png>
-Package pdftex.def Info: ./images/UnitCircle.png  used on input line 43.
-(pdftex.def)             Requested size: 359.74153pt x 202.35461pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 42--47
+{C:/Users/edwar/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./images/Gr
+aph1.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 34--37
 
  []
 
+[2]
+<./images/Graph2.png, id=20, 301.125pt x 301.125pt>
+File: ./images/Graph2.png Graphic file (type png)
+<use ./images/Graph2.png>
+Package pdftex.def Info: ./images/Graph2.png  used on input line 59.
+(pdftex.def)             Requested size: 150.56212pt x 150.56212pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 42--47
-
- []
-
-[2 <./images/UnitCircle.png>] [3]
-<./images/Triangle.png, id=21, 200.75pt x 150.5625pt>
-File: ./images/Triangle.png Graphic file (type png)
-<use ./images/Triangle.png>
-Package pdftex.def Info: ./images/Triangle.png  used on input line 88.
-(pdftex.def)             Requested size: 140.52403pt x 105.39302pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 86--89
+Underfull \hbox (badness 10000) in paragraph at lines 58--60
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 86--89
-
- []
-
-<./images/Graph1.png, id=22, 501.875pt x 401.5pt>
-File: ./images/Graph1.png Graphic file (type png)
-<use ./images/Graph1.png>
-Package pdftex.def Info: ./images/Graph1.png  used on input line 90.
-(pdftex.def)             Requested size: 250.93687pt x 200.7495pt.
-LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 9
-3.
-("C:\Program Files\MiKTeX 2.9\tex/latex/base\omscmr.fd"
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 93.
- [4 <./images/Triangle.png> <./images/Graph1.png>] [5] (Trigonometry.aux) ) 
+[3 <./images/Graph2.png>] [4] [5] (Calculus.aux) ) 
 Here is how much of TeX's memory you used:
- 2693 strings out of 492453
- 34790 string characters out of 3129820
- 104687 words of memory out of 3000000
- 7021 multiletter control sequences out of 15000+200000
+ 2686 strings out of 492453
+ 34555 string characters out of 3129820
+ 102687 words of memory out of 3000000
+ 7014 multiletter control sequences out of 15000+200000
  12403 words of font info for 48 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 53i,10n,32p,304b,194s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/
-Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program 
-Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
-/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.
-pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/P
-rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on Trigonometry.pdf (5 pages, 138925 bytes).
+ 53i,9n,32p,381b,194s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr
+12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C
+:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program 
+Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmsy8.pfb>
+Output written on Calculus.pdf (5 pages, 133276 bytes).
 PDF statistics:
- 64 PDF objects out of 1000 (max. 8388607)
+ 67 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
