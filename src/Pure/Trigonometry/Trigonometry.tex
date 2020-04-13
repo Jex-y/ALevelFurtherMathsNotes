@@ -106,4 +106,60 @@ The reciprocals of trig functions have their own notations. \\
 	$\tan x$ & $\cot x$ \\
 \hline
 \end{tabular}
+\\
+This means that there are some more identities. 
+\begin{align*}
+1 + \tan^2 \theta & = \sec^2 \theta \\
+\cot^2 \theta + 1 & = \csc^2 \theta \\
+\frac{\cos \theta}{\sin \theta} & = \cot \theta \\
+\end{align*}
+\section*{Compound Angle Formulae}
+These are given in the formulae book but it is quicker if you just learn them. 
+\begin{align*}
+\sin \alpha \pm \beta & = \sin \alpha \cos \beta \pm \sin \beta \cos \alpha \\
+\cos \alpha \pm \beta & = \cos \alpha \cos \beta \mp \sin \alpha \sin \beta \\
+\tan \alpha \pm \beta & = \frac{\tan \alpha \pm \tan \beta}{1 \mp \tan \alpha \tan \beta} \\
+\end{align*}
+These are proven via the diagram below. \\
+\includegraphics[scale=0.3]{CompoundAngle} \\
+\subsection*{Double Angle Formulae}
+These come from the compound angle formulae but we just make both the angles the same. 
+\begin{align*}
+\sin 2 \alpha & = 2 \sin \alpha \cos \alpha \\ 
+\cos 2 \alpha & = \cos^2 \alpha - \sin^2 \alpha \\
+& = 1 - 2 \sin^2 \alpha \\
+& = 2 \cos^2 \alpha - 1 \\ 
+\tan 2 \alpha & = \frac{2 \tan \alpha}{1 - \tan^2 \alpha}
+\end{align*}
+\subsection*{Tripe Angle Formulae}
+These can be derived from the compound angle formulae as well. 
+\begin{align*}
+\sin 3 \alpha & = 3 \sin \alpha - 4 \sin^3 \alpha \\
+\cos 3 \alpha & = 4 \cos^3 \alpha - 3 \cos \alpha \\
+\end{align*}
+\section*{The form $R\cos x \pm \alpha$ and $R \sin x \pm \alpha$}
+To make them easier to solve, trigonometric expressions can be written in terms of sin or cosine entirely. 
+\subsubsection*{Example 1}
+Write $2 \sin x + 3 \cos x$ in the form $R \cos x - \alpha$ where $R > 0$ and $0 < \alpha < 90$ \\
+\begin{align*}
+R \cos x - \alpha & \equiv R (\cos x \cos alpha + \sin x \sin \alpha) \\
+2 \sin x + 3 \cos x & = R \cos x \cos \alpha + R \sin x \sin \alpha \\ 
+\Rightarrow & \begin{cases}
+	R \sin \alpha = 2 \\
+	R \cos \alpha = 3 \\
+	\end{cases} \\
+\Rightarrow \tan \alpha & = \frac{2}{3} \\
+\alpha & = 33.69 \\
+\\
+\Rightarrow & \begin{cases}
+	R^2 \sin^2 \alpha = 4 \\
+	R^2 \cos^2 \alpha = 9 \\
+	\end{cases} \\
+\Rightarrow R^2 (\sin^2 \alpha + \cos^2 \alpha) & = 4 + 9 \\
+\Rightarrow R & = \sqrt{13} \\
+\therefore 2 \sin x + 3 \cos x & = \sqrt{13}\cos(x-33.69)
+\end{align*}
+The output is scaled from between $-1$ and $1$ to $-sqrt{13}$ and $sqrt{13}$
+
+There is a short cut to find $R$ as it is just square root of the sum of the two coefficients squared. 
 \end{document}

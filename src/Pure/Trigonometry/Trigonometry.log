@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.5)  23 FEB 2020 18:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.5)  13 APR 2020 17:18
 entering extended mode
 **./Trigonometry.tex
 (Trigonometry.tex
@@ -253,28 +253,45 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 93.
- [4 <./images/Triangle.png> <./images/Graph1.png>] [5] (Trigonometry.aux) ) 
+ [4 <./images/Triangle.png> <./images/Graph1.png>]
+<./images/CompoundAngle.png, id=29, 499.8675pt x 417.56pt>
+File: ./images/CompoundAngle.png Graphic file (type png)
+<use ./images/CompoundAngle.png>
+Package pdftex.def Info: ./images/CompoundAngle.png  used on input line 124.
+(pdftex.def)             Requested size: 149.9614pt x 125.26895pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--125
+
+ []
+
+[5 <./images/CompoundAngle.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 143--144
+
+ []
+
+[6] [7] (Trigonometry.aux) ) 
 Here is how much of TeX's memory you used:
- 2693 strings out of 492453
- 34790 string characters out of 3129820
+ 2705 strings out of 492453
+ 35056 string characters out of 3129820
  104687 words of memory out of 3000000
- 7021 multiletter control sequences out of 15000+200000
- 12403 words of font info for 48 fonts, out of 3000000 for 9000
+ 7033 multiletter control sequences out of 15000+200000
+ 13650 words of font info for 53 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 53i,10n,32p,304b,194s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/
-Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program 
-Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
-/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.
-pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/P
-rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on Trigonometry.pdf (5 pages, 138925 bytes).
+ 53i,14n,32p,304b,194s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.
+pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/P
+rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/sym
+bols/msam10.pfb>
+Output written on Trigonometry.pdf (7 pages, 157288 bytes).
 PDF statistics:
- 64 PDF objects out of 1000 (max. 8388607)
+ 77 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

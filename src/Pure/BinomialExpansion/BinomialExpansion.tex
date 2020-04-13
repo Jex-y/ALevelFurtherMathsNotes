@@ -7,10 +7,10 @@
 \title{Binomial Expansion}	
 \author{Edward Jex}
 \maketitle
-
+\section*{Polynomial Binomial Expansion}
 Binomial Expansion is a way of easily expanding brackets with two terms to a power. The expansion is given by the general formula: 
 \begin{equation*}
-(x + y)^n = \sum_{r=0}^{n} ^nC_r \cdot x^{n-r} \cdot y^r
+(x + y)^n = \sum^{n}_{r=0} ^nC_r \cdot x^{n-r} \cdot y^r
 \end{equation*} 
 where $^nC_r$ is equivalent to $\binom{n}{c}$ and defined as:
 \begin{equation*}
@@ -54,4 +54,18 @@ t & = \: ^9C_3 \cdot (x^2)^3 \cdot \frac{1}{x}^6\\
   & = 84 \cdot x^6 \cdot x^{-6}\\
   & = 84
 \end{align*}
+\section*{General Binomial Expansion}
+This is a more general version of binomial expansion that doesn't require the power to be a positive integer. \\
+\begin{align*}
+(1+x)^n & \simeq 1 + nx + \frac{n(n-1)x^2}{2!} + \frac{n(n-1)(n-2)x^3}{3!} \dots \\
+& = 1 + \sum^{\infty}_{i = 1} (\prod^{i-1}_{j = 0} . x^i . i!)
+\end{align*} 
+Where $n \in \mathbb{R}, |x| < 1$. \\
+\subsubsection*{Example 1}
+Expand $(1+2x)^{-\frac{1}{2}}$ up to and including the $x^3$ term. 
+\begin{align*}
+(1+(2x))^{-\frac{1}{2}} & \simeq 1 + (\frac{1}{2})(2x) + \frac{(-\frac{1}{2})(-\frac{3}{2})(2x)^3}{2!} + \frac{(-\frac{1}{2})(-\frac{3}{2})(-\frac{5}{2})(2x)^3}{3!} \\ 
+& \simeq 1 -x + \frac{3x^2}{2} - \frac{5x^3}{2}
+\end{align*}
+Valued for $|2x| < 1 \Rightarrow |x| < \frac{1}{2}$\\
 \end{document}
