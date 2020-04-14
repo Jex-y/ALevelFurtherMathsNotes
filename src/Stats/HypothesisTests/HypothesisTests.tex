@@ -70,4 +70,22 @@ p(X \leqslant 1) & = 0.0107 \\
 p(X \leqslant 2) & = 0.0546 \\
 X & \leqslant 1 \\
 \end{align*}
+\section*{Hypothesis Tests of The Sample Mean}
+Given a population $X$ with a mean of $\mu$ and a standard deviation $\sigma$ i.e. $X \sim N(\mu, \sigma^2)$ and a sample of size $n$ is taken, the distribution of the sample means is given by $\bar{X} \sim N(\mu, \frac{\sigma^2}{n})$. We are assuming that the underlying population follows a normal distribution. \\
+
+The null and alternative hypothesise are $H_0: \mu = k$, $H_1: \begin{cases} \mu > k \text{ (one tailed)} \\ \mu < k \text{ (one tailed)} \\ \mu \neq k \text{ (two tailed)} \\ \end{cases}$\\
+
+Remember to define $\mu$
+\subsubsection*{Example 1}
+Test results are normally distributed with a mean of 65 and s.d. of 10. A new teacher has a group of 8 students with a mean test score of 72. Is there evidence that the results have significantly improved at a 5\% significance level. \\
+
+$\mu =$ the population mean test score of students. 
+\begin{align*}
+H_0&: \mu = 65 \\
+H_1&: \mu > 65 \\
+X & \sim N(65, 100) \\
+\Rightarrow \bar{X} & \sim N(65, \frac{100}{8}) \\
+p&(\bar{X} \geqslant 72) = 0.02387 < 0.05 \\
+\end{align*}  
+$\therefore$ There is sufficient evidence to reject the null hypothesis. The evidence suggests that the population mean test score has increased. 
 \end{document}

@@ -48,4 +48,17 @@ The five key numbers can be shown on a simple diagram known as a box-and-whisker
 
 \subsection*{Outliers}
 We can say that a data-point is an outlier if the data-point is more than $1.5 \times$ IQR beyond or below the lower or upper quartiles. 
+\section*{Product-Moment Correlation Coefficient}
+The PMCC measures hot close the data is to a straight line. \\
+$r = \frac{S_{xy}}{\sqrt{S_{xx}S_{yy}}}$ where
+\begin{align*}
+\text{Always} > 0 & \begin{cases}
+S_{xx} = \Sigma x^2 - n \bar{x}^2 \\
+S_{yy} = \Sigma y^2 - n \bar{y}^2 \\
+\end{cases} \\
+\text{Positive or negative} & \begin{cases}
+S_{xy} = \Sigma xy - n \bar{x} \bar{y} \\
+\end{cases} \\
+\end{align*}
+We are assuming that the underlying population has a bivariate normal distribution. If we show the data on a scatter graph it should form an ellipse. 
 \end{document}
