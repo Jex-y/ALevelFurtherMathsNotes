@@ -1,0 +1,90 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[fleqn]{amsmath}
+\usepackage{amssymb}
+\begin{document}
+
+\title{Planes}	
+\author{Edward Jex}
+\maketitle
+
+\section*{Planes}
+Planes are represented using either the vector or Cartesian form: \\
+\subsubsection*{Cartesian Form}
+$ax + by + cz = d$
+\subsubsection*{Vector Form}
+$\begin{bmatrix} x \\ y \\ z \end{bmatrix} \cdot 
+\begin{bmatrix} a \\ b \\ c \end{bmatrix} = 
+\bold{r} \cdot 
+\begin{bmatrix} a \\ b \\ c \end{bmatrix} =  d$ \\
+
+In this example, $\begin{bmatrix} a \\ b \\ c \end{bmatrix}$ is the normal vector to the plane. This means that it is perpendicular to the plane. $d$ is a constant and $\begin{bmatrix} x \\ y \\ z \end{bmatrix}$ or $\bold{r}$ is the general point on the plane. A point is on the plane if it satisfies the equation. \\
+
+The equation of the plane can be found given the normal vector and one point on the plane. From this information, the dot product can be used to find the constant. 
+
+\subsection*{Intersection of Planes}
+An example of question that could be asked would be given 3 planes, find how and where they intersect. In this question you would get the equations of the planes. These form simultaneous equations that can be solved algebraically or by using matrices. If the determinant of the matrix is not 0, there is no single solution. There are several different scenarios:
+\begin{itemize}
+	\item If some of the normal vectors are parallel then the planes are parallel. If all 3 are parallel then there are no solutions. If only two are parallel then there are no solutions unless the planes are the same. 
+	\item If there are no parallel planes then you could have a sheaf where the planes meet at a line or no solutions if the equations are inconsistent. 
+\end{itemize}
+
+\subsection*{Angle Between Planes}
+To find the angle between two planes you can use the dot product on the two normal vectors.  $\cos \theta = \frac{\bold{n}_1 \cdot \bold{n}_2}{|\bold{n}_1| \times |\bold{n}_2|}$ 
+
+\subsubsection*{Example 1}
+\begin{align*}
+\bold{r}_1 \cdot \begin{bmatrix} 13 \\ 3 \\ 6 \end{bmatrix} & = 4 \\
+\bold{r}_2 \cdot \begin{bmatrix} 7 \\ 15 \\ 12 \end{bmatrix} & = 9 \\
+\therefore \cos \theta & = \frac{\begin{bmatrix} 13 \\ 3 \\ 6 \end{bmatrix} \cdot \begin{bmatrix} 7 \\ 15 \\ 12 \end{bmatrix}}{\begin{vmatrix} 13 \\ 3 \\ 6 \end{vmatrix} \cdot \begin{vmatrix} 7 \\ 15 \\ 12 \end{vmatrix}} \\
+& = \frac{208}{\sqrt{214}\cdot\sqrt{418}} \\
+\theta & = 45.9 \deg \\
+\end{align*}
+
+\section*{Vector Equations of Lines}
+To specify a line in n dimensions, you need to specify a starting point (any point on the line) and a direction vector. Let a particular point on the line be $A \Rightarrow \vec{OA} = \bold{a}$, the general point be $P \Rightarrow \vec{OP} = \begin{bmatrix} x \\ y \\ z \\\end{bmatrix} = \bold{r}$ and $\bold{d}$ be a vector parallel to the line. The equation of the line can be written $\bold{r} = \bold{a} + \lambda \bold{d}$, $\lambda \in \mathbb{R}$. \\
+
+This can also be written in Cartesian form as $\begin{cases} x = a_1 + \lambda d_1 \\ y = a_2 + \lambda d_2 \\ z = a_3 + \lambda d_3 \end{cases}$. This can be rearranged to $\frac{x-a_1}{d_1}=\frac{x-y_2}{d_2}=\frac{z-a_3}{d_3}$, $d_1, d_2, d_3 \neq 0$. \\
+
+There is a special case if there are any zeros in $\bold{d}$ as it means that one of the dimensions is constant. In this case, that dimension is left out the Cartesian equation and stated at the end e.g. $\frac{x-2}{5}=\frac{z+1}{8}$, $y=7$.
+
+\subsection*{Intersection of Lines}
+There are several cases here:
+\begin{itemize}
+	\item Lines are parallel
+	\item Lines not parallel and do not meet
+	\item Lines meet
+\end{itemize}
+\subsubsection*{Lines Are Parallel}
+To tell if lines are parallel you can look at the direction vectors. If one is multiple of the other then they are parallel. This means that the lines either do not meet or are the same line. 
+
+\subsubsection*{Lines Not Parallel and Do Not Meet}
+3 simultaneous equations can be made for $\lambda$ and $\mu$. 2 of them can be used to solve and the third to check. If they are not parallel and do not meet then the first two will be solvable but the solutions will not work in the third equation. 
+
+\subsubsection*{Lines Meet}
+If the solution works in the third equation then they do meet. To find the point that they meet, $\lambda$ or $\mu$ can be substituted back into their equations. 
+
+\subsection*{Angle Between Lines}
+To find the angle between lines you can use the dot product between the two direction vectors, much like planes. $\cos \theta = \frac{\bold{d}_1 \cdot \bold{d}_2}{|\bold{d}_1| \times |\bold{d}_2|}$ \\
+
+See method for planes above but use the direction vectors instead of normal vectors. 
+
+\section*{Lines and Planes}
+\subsection*{Intersection of Lines and Planes}
+If the direction vector of the line and the normal vector of the plane are perpendicular (the scalar product of the two is zero) then the line is either parallel to the plane or is in the plane. Otherwise, they will always intersect at exactly one point. To find the intersection you need the general point on the line $(\bold{a}_1 + \lambda \bold{d}_1, \bold{a}_2 + \lambda \bold{d}_2, \bold{a}_3 + \lambda \bold{d}_3)$ and substitute this into the equation of the plane ($n_1(\bold{a}_1 + \lambda \bold{d}_1) + n_2(\bold{a}_2 + \lambda \bold{d}_2) + n_3(\bold{a}_3 + \lambda \bold{d}_3) = d$), solving for lambda. Then substitute lambda back into the equation of the line to find the point. 
+
+\subsection*{Angle Between Lines and Planes}
+We can use a similar method to finding the angle between two lines and the angle between two planes but must remember that the normal vector of the plane is perpendicular to the plane, so we must make an adjustment after finding the angle which is $\theta - 90$ if $\theta > 90$ or $90 = \theta$ if $\theta < 90$.
+\subsubsection*{Example 1}
+Find the angle between the plane $6x -5y + z = 15$ and the line $\frac{x-2}{3} = \frac{y}{7} = 1-z$.
+\begin{align*}
+\bold{n} & = \begin{bmatrix} 6 \\ -5 \\ 1 \\ \end{bmatrix} \\
+|\bold{n}| & = \sqrt{36 + 25 + 1} = \sqrt{62} \\
+\bold{d} & = \begin{bmatrix} 3 \\ 7 \\ -1 \\ \end{bmatrix} \\
+|\bold{n}| & = \sqrt{9 + 49 + 1} = \sqrt{59} \\
+\bold{n} \cdot \bold{d} & = -18 \\
+\cos \theta & = \frac{\bold{n} \cdot \bold{d}}{|\bold{n}| \times |\bold{d}|} \\
+& = \frac{-18}{\sqrt{62} \times \sqrt{59}} \\
+\theta & = 107.3 \deg \\
+\therefore & \text{ angle is } \theta - 90 = 17.3 \\
+\end{align*}
+\end{document}

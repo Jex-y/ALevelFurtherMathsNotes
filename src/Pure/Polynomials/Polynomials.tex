@@ -11,6 +11,7 @@ $\strut#1$\kern.25em\smash{\raise.3ex\hbox{$\big)$}}$\mkern-8mu
 \title{Polynomials}	
 \author{Edward Jex}
 \maketitle
+
 The order / degree of a polynomial is the highest power of the variable it contains. For example, a polynomial is order 3. \\
 \section*{Division}
 Long division is the best method when it is not known if there is a remainder or not. Otherwise it can  be done by inspection. \\
@@ -40,6 +41,51 @@ f(1) = 0 & \Rightarrow (x-1) \text{is a factor by the factor theorum} \\
 \section*{Sketching Polynomials}
 To sketch polynomials, we must find where it crosses the x-axis and y-axis. We also need to know what order the polynomial is so that we know the general shape.  \\
 \includegraphics[scale=0.7]{Graphs}
-\section*{Turning Points}
+\subsection*{Turning Points}
 A point where the gradient is 0. If a polynomial is of order n, it can at most n-1 turning points. 
+
+\section*{Roots of Polynomials}
+We denote the root of polynomials using Greek letters starting from $\alpha$.
+\subsection*{Notation}
+We write:
+\begin{align*}
+\sum \alpha & = \alpha + \beta + \gamma \\
+\sum \alpha \beta & = \alpha \beta + \beta \gamma + \gamma \alpha \\
+\sum \alpha^2 \beta & = \alpha^2 \beta + \beta^2 \alpha + \alpha^2 \gamma + \gamma^2 \alpha + \gamma^2 \beta + \beta^2 \gamma \\
+\end{align*}
+\subsection*{Cubics}
+The general equation of a cubic can be written $ax^3 + bx^2 + cx + d = 0 \Rightarrow x^3 + \frac{b}{a}x^2 + \frac{c}{a}x + \frac{d}{a} = 0$, $a \neq 0$. If we know the roots $\alpha$, $\beta$, $\gamma$ it can also be written $(x-\alpha)(x-\beta)(x-\gamma)=0$. If this is expanded we get  $x^3 - (\alpha + \beta + \gamma)x^2 + (\alpha \beta + \beta \gamma + \gamma \alpha)x - \alpha \beta \gamma$. Therefore:
+\begin{align*}
+\sum \alpha & = \frac{-b}{a} \\
+\sum \alpha \beta & = \frac{c}{a} \\
+\alpha \beta \gamma & = \frac{-d}{a} \\
+\end{align*}
+From this we can find the coefficients given information about the roots. 
+
+\subsection*{Quartics}
+The general equation of a quartic can be written $x^4 + \frac{b}{a} x^3 + \frac{c}{a} x^2 + \frac{d}{a} x + \frac{3}{a} = 0$ with roots $\alpha$, $\beta$, $\gamma$, $\delta$. As before, it can also be expressed in the form $(x-\alpha)(x-\beta)(x-\gamma)(x-\delta)=0$. Therefore, we get that:
+\begin{align*}
+\sum \alpha & = \frac{-b}{a} \\
+\sum \alpha \beta & = \frac{c}{a} \\
+\sum \alpha \beta \gamma & = \frac{-d}{a} \\
+\alpha \beta \gamma \delta & = \frac{c}{a} \\
+\end{align*}
+
+\subsection*{Related Roots}
+If you are given equations for the roots in terms of the roots of a different polynomial you can substitute them in to find the new polynomial. \\
+
+\subsubsection*{Example 1}
+$5x^3 - x^2 + 4x + 1 = 0$ has roots $\alpha$, $\beta$, $\gamma$. Find a cubic with the roots $2 \alpha + 3$, $2 \beta + 3$, $2 \gamma + 3$. \\
+
+\begin{align*}
+y & = 2x+3 \\
+\Rightarrow x & = \frac{y-3}{2} \\
+\end{align*}
+\begin{align*}
+5(\frac{y-3}{2})^3 - (\frac{y-3}{2})^2 + 4(\frac{y-3}{2}) + 1 & = 0 \\
+5(y-3)^3 - 2(y-3)^2 + 16(y-3) +1 & = 0 \\
+5(y^3 -9y^2 + 27y -27) -2(y^2 -6y +9) + 16(y-3) +1 & = 0 \\
+5y^3 - 47y^2 + 163y -193 & = 0 \\
+\end{align*}
+
 \end{document}

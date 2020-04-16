@@ -23,7 +23,36 @@ y & = x^2 + x
 x & = -4,\;x = 1
 \\
 \end{align*}
-
-
+\section*{Solving With Matrices}
+Linear simulations equations can be solved by representing them with matrices and vectors. The equations 
+$\begin{cases}
+a_1 x + b_1 y + c_1 z = d_1 \\
+a_2 x + b_2 y + c_2 z = d_2 \\
+a_3 x + b_3 y + c_3 z = d_3 \\
+\end{cases}$
+can be written 
+$\begin{bmatrix}
+a_1 & b_1 & c_1 \\
+a_2 & b_2 & c_2 \\
+a_3 & b_3 & c_3 \\
+\end{bmatrix}
+\begin{bmatrix}
+x \\ y \\ z \\
+\end{bmatrix} = 
+\begin{bmatrix}
+d_1 \\ d_2 \\ d_3 \\
+\end{bmatrix}$
+Therefore, $x$, $y$ and $z$ can be found by rearranging the equation and finding the inverse of the matrix. 
+$\begin{bmatrix}
+x \\ y \\ z \\
+\end{bmatrix} = 
+\begin{bmatrix}
+a_1 & b_1 & c_1 \\
+a_2 & b_2 & c_2 \\
+a_3 & b_3 & c_3 \\
+\end{bmatrix}^{-1}
+\begin{bmatrix}
+d_1 \\ d_2 \\ d_3 \\
+\end{bmatrix}$
 
 \end{document}

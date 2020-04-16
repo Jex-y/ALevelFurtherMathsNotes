@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.5)  21 FEB 2020 16:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.5)  16 APR 2020 15:59
 entering extended mode
 **./Polynomials.tex
 (Polynomials.tex
@@ -203,62 +203,72 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 13.
 ("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 14--15
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 16--17
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 18--28
+Underfull \hbox (badness 10000) in paragraph at lines 19--29
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 18--28
+Underfull \hbox (badness 10000) in paragraph at lines 19--29
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--32
+Underfull \hbox (badness 10000) in paragraph at lines 30--33
 
  []
 
 [1
 
 {C:/Users/edwar/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 33--34
+Underfull \hbox (badness 10000) in paragraph at lines 34--35
 
  []
 
 <./images/Graphs.png, id=12, 320.56396pt x 286.21782pt>
 File: ./images/Graphs.png Graphic file (type png)
 <use ./images/Graphs.png>
-Package pdftex.def Info: ./images/Graphs.png  used on input line 42.
+Package pdftex.def Info: ./images/Graphs.png  used on input line 43.
 (pdftex.def)             Requested size: 224.39323pt x 200.35109pt.
-[2 <./images/Graphs.png (PNG copy)>] [3] (Polynomials.aux) ) 
-Here is how much of TeX's memory you used:
- 2661 strings out of 492453
- 34162 string characters out of 3129820
- 98730 words of memory out of 3000000
- 6992 multiletter control sequences out of 15000+200000
- 12096 words of font info for 47 fonts, out of 3000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 53i,10n,32p,303b,194s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.
-9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/
-type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
-blic/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsf
-onts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
-mr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+[2 <./images/Graphs.png (PNG copy)>] [3]
+Underfull \hbox (badness 10000) in paragraph at lines 75--76
 
-Output written on Polynomials.pdf (3 pages, 92735 bytes).
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--79
+
+ []
+
+[4] (Polynomials.aux) ) 
+Here is how much of TeX's memory you used:
+ 2662 strings out of 492453
+ 34177 string characters out of 3129820
+ 102730 words of memory out of 3000000
+ 6993 multiletter control sequences out of 15000+200000
+ 12403 words of font info for 48 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 53i,10n,32p,428b,194s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex
+10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
+C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Progra
+m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmsy10.pfb>
+Output written on Polynomials.pdf (4 pages, 110844 bytes).
 PDF statistics:
- 41 PDF objects out of 1000 (max. 8388607)
+ 48 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
