@@ -1,0 +1,26 @@
+\documentclass[class=article, crop=false]{standalone}
+\usepackage[fleqn]{amsmath}
+\usepackage{amssymb}
+\begin{document}
+
+\section*{Proof by Deduction}
+This is the most direct proof - generally using algebra - to prove it for all cases. \\
+\subsection*{Example 1}
+Prove than the sum of four consecutive integer is even. \\
+$(n) + (n+1) + (n+2) + (n+3) = 4n + 6 = 2(2n + 3) \Rightarrow$ The sum is even. \\
+\section*{Proof by Exhaustion}
+\subsection*{Example 2}
+No square number end in 2. \\
+Only need to look at unit digit. \\
+None of their squares end in 2 $\Rightarrow$ No square number ends in 2. \\
+\section*{Disproof by Counter Example}
+We find an example that breaks the rule. \\
+The values of $n^2 + n + 41$ is prime. \\
+Let $n = 41$ \\
+\begin{align*}
+& = 41^2 + 2 \times 41 \\
+& = 41(41 + 2) \\
+& = 41 \times 43 \\
+& \Rightarrow \text{Not prime}
+\end{align*}
+\end{document}

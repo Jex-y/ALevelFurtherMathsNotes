@@ -1,0 +1,57 @@
+\documentclass[class=article, crop=false]{standalone}
+\usepackage[fleqn]{amsmath}
+\usepackage{amssymb}
+\begin{document}
+
+\section*{Equations with Indices}
+If we can write an equation in terms of the same bases, we can equate the powers to help us solve them.
+\subsection*{Example 1}
+\begin{align*}
+&\begin{cases}
+	2^{x-y} = 64^2 \\
+	3^{x+y} = 1
+\end{cases} \\
+\text{Find } &  x, y \\
+&\begin{cases}
+	2^{x-y} = 2^12 \Rightarrow x-y = 12 \\
+	3^{x+y} = 3^0 \Rightarrow x+y = 0 \\
+\end{cases} \\
+2x & = 12 \\
+&\begin{cases}
+	x = 6 \\
+	y = -6 \\
+\end{cases} \\
+\end{align*}
+\section*{Quadratics}
+\subsection*{Factorising}
+$(x - \alpha)$ is a factor $\iff x = \alpha$ \\
+Given an equation of the form $x^2 + bx + c$, the roots should add to b and multiply to c.
+\subparagraph*{Difference of two squares}
+$x^2 - y^2 = (x+y)(x-y)$
+\subparagraph*{Completing the square}
+Given an equation $x^2 + bx + c$, complete square form is $(x + \frac{b}{2}) - \frac{b^2}{4} + c$. \\
+This can easily be rearranged to get x as the subject. \\
+Given the equation $ax^2 + bx +c$, the completed square form can be rearranged to produce the quadratic formula.
+\subsubsection{The Quadratic Formula}
+$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$ for an equation $ax^2 + bx + c = 0$.
+\subsubsection*{The Discriminant}
+Looking at the quadratic formula, you can see that there would be no real solutions if $b^2 -4ac < 0$. \\
+$> 0 \iff$ 2 real roots \\
+$= 0 \iff$ 1 real root (repeated) \\
+\subsection*{Hidden Quadratics}
+Polynomials of higher power can be solved like quadratics if they fit the form $ax^{2d} + bx^{d} + c$.
+\subsection*{Example 2}
+For which values of $k$, does the following equation have repeated roots? \\
+\begin{align*}
+x^2 + kx + 2k & = 0 \\
+k^2 - 8k & = 0 \\
+k(k - 8) & = 0 \\
+k = 0 \hspace*{1cm} & \hspace*{1cm} k = -8
+\end{align*}
+\subsection*{Example 3}
+\begin{align*}
+x^4 - 3x^2 - 4 & = 0 \\
+(x^2 - 4)(x^2 + 1)& = 0 \\
+x & = \pm 2 \\
+\end{align*}
+\end{document}

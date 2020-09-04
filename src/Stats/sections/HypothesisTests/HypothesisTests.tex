@@ -1,0 +1,88 @@
+\documentclass[class=article, crop=false]{standalone}
+\usepackage[fleqn]{amsmath}
+\usepackage{amssymb}
+\begin{document}
+
+\section*{One-Tailed Tests}
+We have two possible outcomes, $H_0$, $H_1$ which represent the null and alternative hypothesis. We initially assume that the null hypothesis is true until proven otherwise. \\
+p is the probability of some event happening and our hypothesise are related to whether we think that the probability is higher or lower than it should be. \\
+The significance level represents the probability of us rejecting the null hypothesis when it is true. \\
+
+\subsection*{Steps for a One-Tail test}
+\begin{enumerate}
+	\item Define p and write out $H_0$ and $H_1$ in terms of p.
+	\item State the significance level - if none is mentioned in the question, assume it is 5\%.
+	\item State the distribution, assuming the null hypothesis to be true.
+	\item Calculate the probability (under $H_0$) of obtaining result as or more extreme than those collected. 
+	\item Compare the probability with the significance level and make conclusions - can $H_0$ be rejected or not? Interpret your results in context. 
+\end{enumerate}
+
+If the significance level is less than the probability, then we say: "There is insufficient evidence to reject the null hypothesis so the result is not significant. The evidence doesn't seem to suggest that..." \\\\
+	If the significance level is more than the probability, then we say: "There is sufficient evidence to reject the null hypothesis so the result is significant. The evidence seems to suggest that..." 
+
+\subsubsection*{Example 1}
+I have a coin which I suspect is more likely to show heads than tails. Run a hypothesis test at a 5\% significance level to test than the claim if I took a sample of 20 coin flips and got 18 heads. 
+\begin{align*}
+& \text{p is the probability I get a head} \\
+& H_0: p = \frac{1}{2} \\
+& H_1: p > \frac{1}{2} \\
+& \text{5\% significance level, one tailed test} \\
+& X \sim B(20,\frac{1}{2}) \\
+& P(X \geqslant 18) = 0.0201\% (4dp) \\
+& 0.0201\%  < 5\%
+\end{align*}
+There is sufficient evidence to reject the null hypothesis so the result is significant. The evidence seems to suggest that the coin is biased towards heads. 
+
+\section*{Two-Tailed Tests}
+Two tailed tests are similar to one tailed ones except the significance level should be split over the two tails. We end up only testing for one tail. \\
+Our new hypothesises are $H_0: p = a$ and $H_1: p \neq a$. \\
+We then check whether the actual value was higher or lower than the expected value ($E(x)$) and then continue as normal. 
+\begin{itemize}
+	\item $n > E(x) \rightarrow P(X \geqslant n)$
+	\item $n < E(x) \rightarrow P(X \leqslant n)$
+\end{itemize}
+\subsubsection*{Example 2}
+I believe than 10\% of people are left handed. Run a hypothesis test to test than the claim if I took a sample of 10 people and got 0 left handed people.
+\begin{align*}
+& \text{p is the probability a person is left handed} \\
+& H_0: p = 0.1 \\
+& H_1: p \neq 0.1 \\
+& \text{5\% significance level, two tailed test therefore 2.5\% each tail} \\
+& X \sim B(10,0.1) \\
+& E(X) = 1
+& P(X \leqslant 0) = 0.3487 (4dp) \\
+& 0.3487 > 2.5\%
+\end{align*}
+There is insufficient evidence to reject the null hypothesis so the result is not significant. The evidence doesn't seem to suggest that the proportion of left handed people is not 10\%.\\
+
+\section*{Critical values and Critical Regions}
+Sometimes is is more useful to find the value for which we change from not rejecting the null hypothesis to rejecting it. This value is called the critical value. \\
+The range of values for which you reject the null hypothesis is called the critical region. The range of values for which you can't reject the null hypothesis is called the acceptance region. 
+\subsubsection*{Example 3}
+Throw a coin 10 times. What is the critical region at 5\% significance level if $H_1: p < 0.5$? \\
+Biased against tails?
+One tailed test at 5\% significance level.
+\begin{align*}
+p(X \leqslant 1) & = 0.0107 \\
+p(X \leqslant 2) & = 0.0546 \\
+X & \leqslant 1 \\
+\end{align*}
+\section*{Hypothesis Tests of The Sample Mean}
+Given a population $X$ with a mean of $\mu$ and a standard deviation $\sigma$ i.e. $X \sim N(\mu, \sigma^2)$ and a sample of size $n$ is taken, the distribution of the sample means is given by $\bar{X} \sim N(\mu, \frac{\sigma^2}{n})$. We are assuming that the underlying population follows a normal distribution. \\
+
+The null and alternative hypothesise are $H_0: \mu = k$, $H_1: \begin{cases} \mu > k \text{ (one tailed)} \\ \mu < k \text{ (one tailed)} \\ \mu \neq k \text{ (two tailed)} \\ \end{cases}$\\
+
+Remember to define $\mu$
+\subsubsection*{Example 1}
+Test results are normally distributed with a mean of 65 and s.d. of 10. A new teacher has a group of 8 students with a mean test score of 72. Is there evidence that the results have significantly improved at a 5\% significance level. \\
+
+$\mu =$ the population mean test score of students. 
+\begin{align*}
+H_0&: \mu = 65 \\
+H_1&: \mu > 65 \\
+X & \sim N(65, 100) \\
+\Rightarrow \bar{X} & \sim N(65, \frac{100}{8}) \\
+p&(\bar{X} \geqslant 72) = 0.02387 < 0.05 \\
+\end{align*}  
+$\therefore$ There is sufficient evidence to reject the null hypothesis. The evidence suggests that the population mean test score has increased. 
+\end{document}

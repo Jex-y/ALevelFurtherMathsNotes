@@ -1,0 +1,68 @@
+\documentclass[class=article, crop=false]{standalone}
+\usepackage{amssymb}
+\usepackage[fleqn]{amsmath}
+\begin{document}
+\setlength{\mathindent}{1cm}
+
+\section*{Polynomial Binomial Expansion}
+Binomial Expansion is a way of easily expanding brackets with two terms to a power. The expansion is given by the general formula: 
+\begin{equation*}
+(x + y)^n = \sum^{n}_{r=0}$ $^nC_r \cdot x^{n-r} \cdot y^r
+\end{equation*} 
+where $^nC_r$ is equivalent to $\binom{n}{c}$ and defined as:
+\begin{equation*}
+^nC_r = \frac{n!}{(n-r)! \cdot r!}
+\end{equation*}
+Note that since pascals triangle is symmetrical it doesn't matter which term way around the powers are.
+
+\subsection*{Example 1:}
+\begin{align*}
+(2 + x)^4  & =
+  (^4C_0 \cdot 2^4 \cdot x^0) 
++ (^4C_1 \cdot 2^3 \cdot x^1) 
++ (^4C_2 \cdot 2^2 \cdot x^2) 
++ (^4C_3 \cdot 2^1 \cdot x^3) 
++ (^4C_4 \cdot 2^0 \cdot x^4)&\\
+& =
+  (1 \cdot 16 \cdot 1) 
++ (4 \cdot 8 \cdot x) 
++ (6 \cdot 4 \cdot x^2) 
++ (4 \cdot 2 \cdot x^3)
++ (1 \cdot 1 \cdot x^4)&\\
+& = x^4 + 8x^3 + 24x^2 + 32x + 16&\\
+\end{align*}
+
+\subsection*{Example 2:}
+Find the $x^3$ coefficient in $(3 + 2x)^5$:
+\\
+let n = 5, r = 3
+\begin{align*}
+3^{rd}\; & = ^5C_3 \cdot 3^{5-3} \cdot (2x)^3 &\\
+ & = 10 \cdot 3^2 \cdot 8x^3 &\\
+ & = 720x^3 &\\
+\therefore coefficent = 720
+\end{align*}
+
+\subsection*{Example 3:}
+Find the constant term in $(x^2 + \frac{1}{x})^9$:\\
+For the two terms to cancel out, the power of $\frac{1}{x}$ must be twice the power of $x^2$ so that when they are multiplied together they produce $x^0 = 1$, meaning the term is constant or independent $\implies$ We want the term where $x^2$ is to the power of 3 and $\frac{1}{x}$ is to the power of 6 $\implies$ constant term is:
+\begin{align*}
+t & = \: ^9C_3 \cdot (x^2)^3 \cdot \frac{1}{x}^6\\
+  & = 84 \cdot x^6 \cdot x^{-6}\\
+  & = 84
+\end{align*}
+\section*{General Binomial Expansion}
+This is a more general version of binomial expansion that doesn't require the power to be a positive integer. \\
+\begin{align*}
+(1+x)^n & \simeq 1 + nx + \frac{n(n-1)x^2}{2!} + \frac{n(n-1)(n-2)x^3}{3!} \dots \\
+& = 1 + \sum^{\infty}_{i = 1} (\prod^{i-1}_{j = 0} . x^i . i!)
+\end{align*} 
+Where $n \in \mathbb{R}, |x| < 1$. \\
+\subsubsection*{Example 1}
+Expand $(1+2x)^{-\frac{1}{2}}$ up to and including the $x^3$ term. 
+\begin{align*}
+(1+(2x))^{-\frac{1}{2}} & \simeq 1 + (\frac{1}{2})(2x) + \frac{(-\frac{1}{2})(-\frac{3}{2})(2x)^3}{2!} + \frac{(-\frac{1}{2})(-\frac{3}{2})(-\frac{5}{2})(2x)^3}{3!} \\ 
+& \simeq 1 -x + \frac{3x^2}{2} - \frac{5x^3}{2}
+\end{align*}
+Valued for $|2x| < 1 \Rightarrow |x| < \frac{1}{2}$\\
+\end{document}

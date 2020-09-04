@@ -1,0 +1,50 @@
+\documentclass[class=article, crop=false]{standalone}
+\usepackage[fleqn]{amsmath}
+\usepackage{amssymb}
+\begin{document}
+
+\section*{Transformations using Matrices}
+Any $n \times n$ matrix can be used to represent a transformation in $n$ dimensions. Given a matrix $M$ and point $p$, the transformed point would be $Mp$. Translations can not be represented this way and other transforms must be about the origin. To transform multiple points at the same time, they can be written as a matrix with each column corresponding to a different point.
+\subsubsection*{Example 1}
+To transform a single point by a matrix. 
+\begin{align*}
+\bold{p} & = \begin{bmatrix} 2 \\ -3 \\ \end{bmatrix} \\
+\bold{M} & = \begin{bmatrix} 
+	1 & 5 \\
+	-3 & 2 \\
+\end{bmatrix} \\
+\bold{Mp} & = \begin{bmatrix} 
+	1 & 5 \\
+	-3 & 2 \\
+\end{bmatrix}
+\begin{bmatrix} 2 \\ -3 \\ \end{bmatrix} \\
+& = \begin{bmatrix} -13 -12 \end{bmatrix} \\
+\therefore & (2, -3) \mapsto (-13, -12) \\
+\end{align*}
+\subsection*{Finding A Matrix For A Transformation}
+Not all transformations have matrices. \\
+
+If there is a matrix $\bold{M} = \begin{bmatrix} a & b \\ c & d \end{bmatrix}$ this would transform $(1,0) \mapsto (a, c)$ and $(0,1) \mapsto (b,d)$. Therefore, if we know how the basis vectors are transformed we can write the matrix that causes the transformation with each column containing the point that a basis vector is transformed to. 
+
+\section*{Inverses of Matrices}
+For a square matrix $\bold{M}$, the inverse is written $\bold{M}^{-1}$ and has the property $\bold{M}\bold{M}^{-1} = \bold{M}^{-1}\bold{M} = \bold{I}$. Not all matrices have inverses. If a matrix has no inverse we call it singular.
+\subsection*{Inverses And Transformations}
+If $\bold{M}$ represents a transform T then $\bold{M}^{-1}$ represents the inverse transformation. If T is a reflection $\bold{M} = \bold{M}^{-1}$ or $\bold{M}^2 = \bold{I}$ \\
+$|\det \bold{M}|$ represents the area scale factor of T. If $\det \bold{M} < 0$ the sense is reversed meaning that the points are labelled the other way around and the shape have been flipped over e.g. a rotation. 
+\subsection*{2x2}
+The determinant of $\bold{M}$ is $\det \bold{M} = \begin{vmatrix} a & b \\ c & d \end{vmatrix} = ad-bc$. The adjugate of $\bold{M}$ is $adj \bold{M} = \begin{bmatrix} d & -b \\ -c & a \end{bmatrix}$. $\bold{M}^{-1} = \frac{1}{ad-bc} \begin{bmatrix} d & -b \\ -c & a \end{bmatrix}$ \\
+If $\det \bold{M} = 0$ then the matrix would have no inverse as it would mean dividing by 0. 
+
+\subsection*{3x3}
+We still use $\bold{M}^{-1} = \frac{1}{\det \bold{M}} adj \bold{M}$ but the determinant and adjugate are calculated differently.
+\subsubsection*{Determinant Of a 3x3 Matrix}
+To calculate the determinant, chose a row or column of values and for each value ignore its row and column and find the determinant of the remaining values. Multiply this by the value and then the sign given by the following pattern. \\ 
+$\begin{bmatrix}
++ & - & + \\
+- & + & - \\
++ & - & + \\
+\end{bmatrix} $ \\
+Sum each of the values found for the row or column to get the determinant. This can be made easier if you use a row or column with one or more zeros in it. 
+\subsection*{Adjuagte Of a 3x3 Matrix}
+First the matrix of cofactors (written as $\bold{C}$) is found. For each value in the matrix the same calculation is done as for finding the determinant up to and including the sign. Next, the transpose of this is found ($\bold{C}^T$) to give the adjugate. This is done by turning all the rows to columns or the other way around, effectively reflecting the matrix over the leading diagonal.  
+\end{document}

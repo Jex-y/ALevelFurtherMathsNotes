@@ -1,0 +1,22 @@
+\documentclass[class=article, crop=false]{standalone}
+\usepackage[fleqn]{amsmath}
+\usepackage{amssymb}
+\begin{document}
+
+Consider than $100 = 10^2$. In logarithmic form, we say $\log_{10} 100 = 2$.
+
+\section*{The laws of logarithms}
+\begin{align}
+\log_n x + \log_n y & = \log_n xy \\
+\log_n x - \log_n y & = \log_n \frac{x}{y} \\
+\log_n x^k & = k log_n x \\
+\frac{\log_a x}{\log_a b} & = \log_b x 
+\end{align}
+Rules 1, 2 and 3 must be learn for A-Level.
+
+\section*{Natural Logarithms}
+$e \simeq 2.718\dots$. e is irrational and transcendental. The exponential function is defined as $y = e^x$. It is special as its derivative is itself. The natural logarithm function is defined as $y = \log_e x = \ln x$. The derivative of $\ln x$ is $\frac{d}{dx} \ln x = \frac{1}{x}$.
+
+\section*{Modelling curves with Logarithms}
+The relationship between $x$ and $y$ is believed to be of the form $y = k x^n$ where $k$ and $n$ are constant. By taking logarithms of each side, the power can be moved down. This means a simple linear regression can be used to fit coefficients to the data by taking the logarithms of the given data and then putting the found coefficients to the power of whichever base logarithm you used.
+\end{document}

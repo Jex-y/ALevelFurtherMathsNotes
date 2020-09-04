@@ -1,0 +1,38 @@
+\documentclass{report}
+
+\usepackage[subpreambles=true]{standalone}
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=black,
+    urlcolor=black
+}
+
+\usepackage{import}
+
+\title{A Level Further Maths: Statistics Notes}
+\date{ }
+
+\begin{document}
+    \maketitle
+    \tableofcontents
+    \newpage
+
+	\chapter{Conditional Probability}
+	\import{../sections/ConditionalProbability}{ConditionalProbability}
+
+	\chapter{Data Distribution}
+	\import{../sections/DataDistribution}{DataDistribution}
+
+	\chapter{Data Processing}
+	\import{../sections/DataProcessing}{DataProcessing}
+
+	\chapter{Hypothesis Tests}
+	\import{../sections/HypothesisTests}{HypothesisTests}
+
+	\chapter{Probability}
+	\import{../sections/Probability}{Probability}
+\end{document}

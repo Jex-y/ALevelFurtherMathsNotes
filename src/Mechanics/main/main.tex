@@ -1,0 +1,35 @@
+\documentclass{report}
+
+\usepackage[subpreambles=true]{standalone}
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=black,
+    urlcolor=black
+}
+
+\usepackage{import}
+
+\title{A Level Further Maths: Mechanics Notes}
+\date{ }
+
+\begin{document}
+    \maketitle
+    \tableofcontents
+    \newpage
+
+	\chapter{Friction}
+	\import{../sections/Friction}{Friction}
+
+	\chapter{Kinematics}
+	\import{../sections/Kinematics}{Kinematics}
+
+	\chapter{Moments}
+	\import{../sections/Moments}{Moments}
+
+	\chapter{Statics}
+	\import{../sections/Statics}{Statics}
+\end{document}
